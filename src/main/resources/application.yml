@@ -1,0 +1,8 @@
+spring:
+    datasource:
+        password: ${database_password}
+        url: ${database_url}
+        username: ${database_username}
+    jpa:
+        hibernate:
+            ddl-auto: create-drop
